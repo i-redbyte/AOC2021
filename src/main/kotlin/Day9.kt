@@ -75,7 +75,7 @@ fun main() {
             .take(3)
             .fold(1L) { a, v -> a * v }
     }
-    println("Result part1:: ${part1()}")
+    println("Result part1: ${part1()}")
 
     println("Result part2: ${part2()}")
 }

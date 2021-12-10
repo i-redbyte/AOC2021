@@ -46,7 +46,7 @@ fun main() {
                 }
             }.joinToString("") { it.toString() }.toInt()
         }
-    println("Result part1:: ${part1()}")
+    println("Result part1: ${part1()}")
 
     println("Result part2: ${part2()}")
 }

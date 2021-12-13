@@ -1,5 +1,4 @@
 private const val MIN_COUNT_CROSSING = 2
-
 data class Point(val x: Int, val y: Int)
 
 class Segment(val start: Point, val end: Point) {
